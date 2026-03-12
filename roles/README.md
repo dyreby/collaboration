@@ -9,11 +9,16 @@ Use them with whatever agent system you have, or as standalone references.
 
 ## Reviewers
 
-Four specialized code reviewers, each with an orthogonal focus:
+Four specialized reviewers, each with an orthogonal focus.
+They work on any artifact — code, design docs, config, whatever has a diff.
 
-- **[reviewer-correctness](reviewer-correctness.md)** — Does the code do what it claims to do?
-- **[reviewer-design](reviewer-design.md)** — Is the code structured well for the people who work with it next?
-- **[reviewer-operations](reviewer-operations.md)** — Will the code behave well in production?
-- **[reviewer-security](reviewer-security.md)** — Does the code create opportunities for exploitation or exposure?
+- **[reviewer-correctness](reviewer-correctness.md)** — Does the work do what it claims to do, and is that backed by evidence?
+- **[reviewer-design](reviewer-design.md)** — Is the work structured well for the people who engage with it next?
+- **[reviewer-operations](reviewer-operations.md)** — Will the work behave well in production — under load, under failure, and over time?
+- **[reviewer-security](reviewer-security.md)** — Does the work create opportunities for exploitation or exposure?
 
 All four use the same severity scale (critical, high, moderate, low) and output format.
+
+Each reviewer works in its own worktree to avoid interference.
+They can modify code, write tests, add instrumentation, and build proof-of-concept exploits to verify findings.
+Their output is findings, not patches.
