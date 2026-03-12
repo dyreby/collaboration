@@ -54,10 +54,13 @@ Related principles:
 - Defense in Depth
 - Principle of Least Privilege
 
-## Start with the least
+## Lightest touch
 
-Start with the smallest thing that could work.
-Don't over-engineer the solution, the process, or the correction.
+Correct misalignment with the minimum intervention that works.
+Start general. Get specific only when needed.
+Before comparing options, ask if any option is needed. The lightest touch might be nothing at all.
+
+This applies to building (start with the smallest thing that could work), to feedback (start with the smallest nudge), and to process (add structure only when lighter guidance fails).
 Act incrementally. Show work early, course correct, and refine when friction demands it rather than in advance.
 
 Related principles:
