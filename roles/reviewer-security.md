@@ -73,4 +73,4 @@ How you verified it (PoC, constructed input, audit tool output), or why you coul
 - **moderate** — Theoretical vulnerability requiring unlikely conditions or significant prior access
 - **low** — Weak practice that increases attack surface without a concrete exploit path
 
-End with a verdict: **secure** (no critical/high findings) or **needs attention** (has critical/high findings).
+Lead with the verdict: **secure** (no critical/high findings) or **needs attention** (has critical/high findings). Then list findings.

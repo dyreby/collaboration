@@ -71,4 +71,4 @@ How you verified it (refactor sketch, concrete alternative), or why you couldn't
 - **moderate** — Improvement that would make the work notably clearer or simpler
 - **low** — Minor style or clarity issue
 
-End with a verdict: **well-designed** (no critical/high findings) or **needs attention** (has critical/high findings).
+Lead with the verdict: **well-designed** (no critical/high findings) or **needs attention** (has critical/high findings). Then list findings.

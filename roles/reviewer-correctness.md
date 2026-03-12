@@ -71,4 +71,4 @@ How you verified it, or why you couldn't.
 - **moderate** — Latent bug that requires unusual conditions to trigger
 - **low** — Suspicious pattern that may not be a bug today but is fragile
 
-End with a verdict: **correct** (no critical/high findings) or **needs attention** (has critical/high findings).
+Lead with the verdict: **correct** (no critical/high findings) or **needs attention** (has critical/high findings). Then list findings.

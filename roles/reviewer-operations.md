@@ -69,4 +69,4 @@ How you verified it (benchmark, instrumentation, reproduction), or why you could
 - **moderate** — Operational risk that requires unusual conditions but would be serious if triggered
 - **low** — Missing observability or hardening that increases diagnosis time or blast radius
 
-End with a verdict: **production-ready** (no critical/high findings) or **needs attention** (has critical/high findings).
+Lead with the verdict: **production-ready** (no critical/high findings) or **needs attention** (has critical/high findings). Then list findings.
