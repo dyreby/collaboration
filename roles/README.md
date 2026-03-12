@@ -7,6 +7,10 @@ Roles are framework-agnostic, domain-agnostic, and language-agnostic.
 They don't assume any specific tooling.
 Use them with whatever agent system you have, or as standalone references.
 
+## Counselor
+
+- **[counselor](counselor.md)** — A thinking partner that refines intent, challenges ideas, coordinates work, and synthesizes results.
+
 ## Reviewers
 
 Four specialized reviewers, each with an orthogonal focus.
