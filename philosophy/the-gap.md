@@ -78,4 +78,4 @@ When two people hit friction, is it because they're interpreting differently?
 Pursuing different objectives?
 Or because they agreed on the goal but not the approach?
 
-That's a question about levels of alignment, and it's what [coherent evolution](coherent-evolution.md) addresses.
+That's a question about levels of alignment, and it's what [levels of alignment](levels-of-alignment.md) addresses.
