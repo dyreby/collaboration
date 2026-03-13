@@ -10,6 +10,11 @@ Commit messages lead with what changed, not how.
 The diff shows the how.
 The message tells a reader scanning the log what happened and why it matters.
 
+Separate functional changes from release commits.
+A release commit (version bump, changelog, tag) should contain only release mechanics.
+The actual changes it releases should already be in the history as their own commits.
+Combining both makes it impossible to revert the change without reverting the release, and hides the functional change behind a version bump message.
+
 ## Linear commit histories
 
 Every commit on main should be a meaningful, self-contained unit of work.
