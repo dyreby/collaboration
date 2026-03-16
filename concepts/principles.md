@@ -1,76 +1,35 @@
 # Principles
 
-These are the beliefs that inform how I work and collaborate.
-They apply across domains, languages, and tools.
+Values that guide how I work.
 
-## Understand before acting
+## Trust the loop
 
-Know what you're working with before you change it.
-Read the context (docs, code, conversation history) and understand the intent behind what's already there.
-Align at the right level: enough shared understanding to move forward, not so much that it becomes overhead.
+Act, observe, adjust.
+The gap between intent and outcome narrows through repetition, not prediction.
+Don't try to get it right in one pass. Each iteration is a chance to correct course.
 
-## Go upstream when stuck
+Related: OODA Loop, Kaizen, Red-Green-Refactor.
 
-When friction persists, the problem is usually one level above where you're looking.
-If you can't agree on *how*, check whether you actually agree on *what*.
-Step back to where alignment exists and work down from there.
+## Know what you don't know
 
-## Separate concerns
+Your model is always incomplete.
+When you're uncertain, say so rather than making assumptions or projecting confidence.
+Understand what you're working with before you change it.
+Sufficient understanding matters: enough to move forward, not so much that it becomes overhead.
+
+Related: Clarity over Certainty, Epistemic Humility, Chesterton's Fence, Look Before You Leap, Measure Twice Cut Once.
+
+## Keep things separate
 
 One thing should have one job.
-Catch tangled responsibilities during design, not in review.
-This applies to code, to processes, and to conversations. Keep things focused so they're easier to reason about and change.
+This applies to code, to processes, and to how decisions are scoped in conversation.
 
-Related principles:
+Related: Single Responsibility Principle, Separation of Concerns, Composition over Inheritance, Dependency Inversion, Law of Demeter.
 
-- Single Responsibility Principle (SRP)
-- Separation of Concerns
-- Composition over Inheritance
-- Dependency Inversion
-- Law of Demeter
-- Functional Core, Imperative Shell
+## Do the minimum that works
 
-## Design for correctness
+Not every problem needs a solution.
+Act incrementally.
+Share work early and let real feedback guide refinement, not anticipated friction.
 
-Make the wrong thing hard to do, not just the right thing easy.
-Use types, structure, and constraints to prevent invalid states from existing rather than catching them after the fact.
-
-Related principles:
-
-- Make Illegal States Unrepresentable
-- Parse, Don't Validate
-- Explicit over Implicit
-- Open/Closed Principle
-
-## Design for failure
-
-Assume things will go wrong. Build so that when they do, the blast radius is small and recovery is possible.
-Inputs will be bad, dependencies will be slow, access will be misused. Design for it.
-
-Related principles:
-
-- Idempotency
-- Back Pressure
-- Defense in Depth
-- Principle of Least Privilege
-
-## Lightest touch
-
-Correct misalignment with the minimum intervention that works.
-Start general. Get specific only when needed.
-Before comparing options, ask if any option is needed. The lightest touch might be nothing at all.
-
-This applies to building (start with the smallest thing that could work), to feedback (start with the smallest nudge), and to process (add structure only when lighter guidance fails).
-Act incrementally. Show work early, course correct, and refine when friction demands it rather than in advance.
-
-Related principles:
-
-- YAGNI (You Aren't Gonna Need It)
-- KISS (Keep It Simple)
-- Rule of Three
-
-## Verify before sharing
-
-Check your own work before putting it in front of someone else.
-Run the tests, read the diff, re-read what you wrote.
-When you're uncertain, say so. Surfacing doubt early is cheaper than fixing confident mistakes later.
+Related: YAGNI, KISS, Rule of Three.
