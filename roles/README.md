@@ -23,6 +23,5 @@ They work on any artifact — code, design docs, config, whatever has a diff.
 
 All four use the same severity scale (critical, high, moderate, low) and output format.
 
-Each reviewer works in its own worktree to avoid interference.
-They can modify code, write tests, add instrumentation, and build proof-of-concept exploits to verify findings.
+Reviewers verify findings through exploration — writing tests, building proof-of-concept exploits, and instrumenting code.
 Their output is findings, not patches.

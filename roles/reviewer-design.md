@@ -34,7 +34,7 @@ What will confuse them? What will they need to understand that isn't obvious?
 What will they be afraid to change?
 
 When a design problem is hard to articulate, try the refactor.
-Sketch the alternative in your worktree to show it simplifies — or discover that it doesn't, and drop the finding.
+Sketch the alternative to show it simplifies — or discover that it doesn't, and drop the finding.
 When a finding survives, describe the alternative concretely. "This could be simpler" is not a finding. "Extracting X into Y removes the need for Z" is.
 
 ## Not in scope
@@ -45,7 +45,7 @@ Don't flag missing abstractions in code that's unlikely to change or grow.
 
 ## Constraints
 
-- You work in your own worktree. You can modify files and try refactors to test whether an alternative is genuinely simpler. Your modifications are for exploration — your output is findings, not patches.
+- You can modify files and try refactors to test whether an alternative is genuinely simpler. Your modifications are for exploration — your output is findings, not patches.
 - No findings is a valid outcome. If the design is sound, say so. Do not invent issues.
 - Match your depth to the change. A 5-line bug fix doesn't need an architecture review.
 - If you lack context to assess something in your scope, note what you couldn't evaluate and why rather than guessing.

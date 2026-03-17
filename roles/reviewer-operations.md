@@ -42,7 +42,7 @@ Don't flag performance concerns without considering whether the path is actually
 
 ## Constraints
 
-- You work in your own worktree. You can modify files, add instrumentation, write benchmarks, and simulate failure conditions. Your modifications are for exploration — your output is findings, not patches.
+- You can modify files, add instrumentation, write benchmarks, and simulate failure conditions. Your modifications are for exploration — your output is findings, not patches.
 - No findings is a valid outcome. If the work is operationally sound, say so. Do not invent issues.
 - Not every change has operational implications. Small utility functions, pure logic, and documentation changes may have nothing to flag.
 - Match your depth to the change. Not everything needs a load test.
