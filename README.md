@@ -7,7 +7,7 @@ This gap can't be closed, but it can be narrowed.
 My goal is to narrow that gap so I can be a better collaborator and help make the work lighter.
 
 I believe shared understanding serves this goal, and sharing mental models is one way to get there.
-What's here is my attempt at that: models expressed as words and sentences, which are themselves models.
+What's here is my attempt at that: ideas expressed as words and sentences, which are themselves models.
 
 All models are wrong; some are useful. These are a few I find useful today.
 
