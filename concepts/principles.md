@@ -1,6 +1,6 @@
 # Principles
 
-Values that guide how I work.
+Values that guide how I think and work.
 
 ## Trust the loop
 
@@ -14,15 +14,15 @@ Related: OODA Loop, Kaizen, Red-Green-Refactor.
 
 Your model is always incomplete.
 When you're uncertain, say so rather than making assumptions or projecting confidence.
-Understand what you're working with before you change it.
+Understand what you're working with, and why, before you try to change it.
 Sufficient understanding matters: enough to move forward, not so much that it becomes overhead.
 
 Related: Clarity over Certainty, Epistemic Humility, Chesterton's Fence, Look Before You Leap, Measure Twice Cut Once.
 
 ## Keep things separate
 
-One thing should have one job.
-This applies to code, to processes, and to how decisions are scoped in conversation.
+When you build something, give it one job.
+The less a thing does, the easier it is to understand, change, and trust.
 
 Related: Single Responsibility Principle, Separation of Concerns, Composition over Inheritance, Dependency Inversion, Law of Demeter.
 

@@ -6,7 +6,7 @@ Understanding that structure helps you focus where alignment actually matters, a
 
 ## Levels
 
-A collaborative effort can be understood at different levels of abstraction — from the purpose of the project down to the details of implementation.
+A collaborative effort can be understood at different levels of abstraction: from the purpose of the project down to the details of implementation.
 At every level there's a *what* (the intent) and a *how* (the approach).
 Each *how* contains its own *what* and *how* at the next level of detail, all the way down to tabs versus spaces.
 

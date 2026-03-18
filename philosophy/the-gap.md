@@ -8,7 +8,7 @@ This is a model for understanding why that is, and for collaborating within it.
 
 ## The assumptions
 
-Every model rests on assumptions. These are the simplest ones I've found for modeling collaboration:
+Every model rests on assumptions. These are the simplest ones I've found for modeling collaboration between distinct agents:
 
 - **Something exists.** There is a world and we experience it.
 - **Distinct things exist.** You and me, agent and environment.
@@ -31,7 +31,7 @@ No agent has full access to reality.
 Each one operates from a compressed and fallible representation of what's out there.
 
 **Agents act from those models in pursuit of objectives.**
-An agent's objectives are its intent — the internal aim that drives action.
+An agent's objectives are its intent: the internal aim that drives action.
 Each agent has privileged access to its own intent, but even this self-knowledge is filtered through an internal model.
 We know what we're aiming for better than anyone else does, but we don't always know it fully ourselves.
 
@@ -56,7 +56,7 @@ Recognizing the gap for what it is provides space to work within it.
 Because expression is lossy, collaboration needs a correction loop.
 
 You act. You observe the result. You check the result against what you were aiming for. You adjust. The other agent does the same.
-Each iteration is a chance to correct course and move closer to shared understanding.
+Each iteration is a chance to correct course and move closer to a shared understanding.
 
 The OODA (Observe, Orient, Decide, Act) loop is a useful model for this iterative process.
 Its value is in separating observation from interpretation, because that's where the gap lives.
