@@ -1,6 +1,7 @@
 # Levels of Alignment
 
 [The gap](the-gap.md) explains why alignment is hard.
+
 This model describes alignment as occurring at different levels of abstraction.
 Understanding that structure helps you focus where alignment actually matters, and let go where it doesn't.
 
@@ -58,4 +59,5 @@ Under-alignment creates gaps.
 A developer who doesn't know *why* a feature matters will make poor tradeoffs when edge cases appear.
 
 The right level of alignment is discovered, not prescribed, and it shifts as the work evolves.
+
 When you find it, the work becomes light.

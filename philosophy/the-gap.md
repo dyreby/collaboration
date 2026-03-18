@@ -1,7 +1,7 @@
 # The Gap
 
-What someone means and what they say are never quite the same.
-What someone says and what the other person hears are never quite the same either.
+What someone means and what they say are never quite the same.  
+What someone says and what the other person hears are never quite the same either.  
 This gap can't be closed, but it can be narrowed.
 
 This is a model for understanding why that is, and for collaborating within it.
@@ -27,15 +27,18 @@ I'm choosing the level of abstraction that lets me say something useful about co
 Building on that foundation, I make three claims:
 
 **Agents have internal models of the world, and those models are incomplete.**
+
 No agent has full access to reality.
 Each one operates from a compressed and fallible representation of what's out there.
 
 **Agents act from those models in pursuit of objectives.**
+
 An agent's objectives are its intent: the internal aim that drives action.
 Each agent has privileged access to its own intent, but even this self-knowledge is filtered through an internal model.
 We know what we're aiming for better than anyone else does, but we don't always know it fully ourselves.
 
 **Expression compresses internal state.**
+
 When an agent communicates, it can't transmit its internal state directly.
 It has to compress it into something expressible: words, gestures, code, and everything in between.
 That compression is necessarily lossy — expression is itself a model, and models simplify.
@@ -73,9 +76,9 @@ This loop runs continuously, not as ceremony but as the basic rhythm of collabor
 
 The gap tells you *why* alignment is hard: distinct agents, lossy expression, and model-mediated interpretation.
 
-What it doesn't tell you is *where* to focus your correction.
-When two people hit friction, is it because they're interpreting differently?
-Pursuing different objectives?
+What it doesn't tell you is *where* to focus your correction.  
+When two people hit friction, is it because they're interpreting differently?  
+Pursuing different objectives?  
 Or because they agreed on the goal but not the approach?
 
 That's a question about levels of alignment, and it's what [levels of alignment](levels-of-alignment.md) addresses.
