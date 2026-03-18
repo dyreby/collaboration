@@ -15,7 +15,7 @@ All models are wrong; some are useful. These are a few I find useful today.
 
 ### [Philosophy](philosophy/)
 
-Philosophical models about collaboration.
+Philosophical models related to collaboration.
 Why the gap exists, what it means for alignment between collaborators, and how to work within it.
 
 ### [Concepts](concepts/)
@@ -24,4 +24,8 @@ Mental models for how I think and work.
 
 ### [Roles](roles/)
 
-Personas I use in my work with AI agents, scoped to focused tasks like planning work, writing code, and reviewing changes.
+Roles my coding agents adopt for focused tasks.
+
+### [Procedures](procedures/)
+
+Procedures my coding agents use for specific moments.
