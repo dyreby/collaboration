@@ -2,7 +2,8 @@
 
 I've noticed a pattern that repeats across software: a canonical model in the middle that producers and consumers communicate through.
 This shared abstraction takes the form of schemas, desired states, main branches.
-Even the "average user" is a model of the typical person that interfaces and frontends are designed around.
+Even the "average user" is a model of the typical person that frontends and interfaces are designed around.
+
 Much of our field's intellectual energy goes into making that model better.
 Very little of it goes into asking whether the model should be there.
 
@@ -17,7 +18,7 @@ These problems are not intrinsic to the work.
 They emerge from the gap between the model and the reality it claims to represent.
 Every layer above the model pays for that gap, in attention spent on problems no one set out to solve.
 
-The fiction recurs at smaller scales.
+The fiction of these made-up problems recurs at smaller scales.
 A database picks a schema, calls it the model, makes everyone read and write through it.
 Version control picks a main branch, calls it the canonical history, treats every other history as a deviation.
 Software picks an average user, calls them the model, and ships something shaped to that average.
@@ -35,10 +36,12 @@ Optimizing the answer reinforces the assumption that the question itself is the 
 
 Occam's razor isn't a new idea.
 A good developer looks for unnecessary abstractions to remove because we've learned that simpler models are easier to understand, maintain, and extend.
+
 On Stack Overflow this pattern has a name: the *XY problem*.
 The asker knows they want to do X and assumes Y is the way to get there, so they ask how to do Y, often in a way that doesn't quite make sense.
 A back-and-forth starts, with varying degrees of patience from the answerers, until the asker reveals the X they were after.
 The answer turns out to be: don't do Y, here's how to do X directly.
+
 The asker's assumption was itself a model in the middle, blocking the help they needed.
 The XY problem is familiar enough that the lesson we usually take from it is "that person should have known to ask the right question."
 But the same pattern is harder to see at the scale of our entire field, especially when refining Y is what we get paid for.
@@ -64,10 +67,10 @@ It returns them to the people and systems doing the projecting, where they belon
 
 As humans, we build internal models of the world that are shaped by our learned experiences and are generally very useful.
 The more stable the model, the more comfortable we feel applying it to the moment unfolding in front of us.
-But it's also easy to forget, especially for models that have been proven useful many times over, that all models are wrong.
-The most useful ones can become invisible.
+But it's easy to forget, especially for models that have been proven useful many times over, that all models are wrong.
+The most useful ones can become invisible and we forget that they aren't reality.
 
-The model in the middle is one of those.
+I propose that the model in the middle is one of those.
 It has been the unexamined floor of software for decades, and we're fluent in it.
 "What is the right schema" feels like *the* engineering question.
 Asking whether the schema needs to be there at all sounds either obvious or unhinged, depending on who's listening.
@@ -96,4 +99,4 @@ Each is a partial answer; what they share hasn't yet been named.
 My work moving forward is to model this substrate over which events are observed, because I believe we can encode a core model of events unfolding in time that will be generally useful across all software domains.
 
 My motivation for this work is simple.
-I want to live in a world with fewer made-up problems. A world where good people can spend their attention on real ones: treating diseases, ending food insecurity, mitigating climate change. We developers can build the tools that make that possible, but it's a ladder, and the bottom rung is better tooling for ourselves.
+I want to live in a world with fewer made-up problems. A world where good people can spend their attention on real problems: treating diseases, ending food insecurity, mitigating climate change. We developers can build the tools that make that world possible, but it's a ladder, and the bottom rung is better tooling for ourselves.
