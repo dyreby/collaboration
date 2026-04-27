@@ -96,4 +96,4 @@ Each is a partial answer; what they share hasn't yet been named.
 My work moving forward is to model this substrate over which events are observed, because I believe we can encode a core model of events unfolding in time that will be generally useful across all software domains.
 
 My motivation for this work is simple.
-I want to live in a world with fewer made-up problems. A world where good people can spend their attention on real ones: treating diseases, ending food insecurity, mitigating climate change. We developers can build the tools that make that possible, but it's a ladder, and the bottom rung is better tools for ourselves.
+I want to live in a world with fewer made-up problems. A world where good people can spend their attention on real ones: treating diseases, ending food insecurity, mitigating climate change. We developers can build the tools that make that possible, but it's a ladder, and the bottom rung is better tooling for ourselves.
