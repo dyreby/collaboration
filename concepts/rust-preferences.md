@@ -28,15 +28,6 @@ Strongly prefer the type that avoids unnecessary cost. Let the compiler do the w
   The reader should see all dependencies at a glance.
 - Merge `use` statements as aggressively as possible.
   Combine imports from the same crate into a single `use` statement with nested braces.
-- **Import the module, use the module path.** When you import a module like `std::fs`, use `fs::Metadata`, `fs::read` in code.
-  Don't also pull individual items out of a module you've already imported — pick one level of abstraction.
-  This means no `{self, Item}` patterns like `use std::io::{self, Read}`. Instead:
-  ```rust
-  use std::{
-      collections::HashMap,
-      fs,
-      io,
-  };
 
   // Trait import: `io::Read` must be in scope for `.read_to_string()`.
   use io::Read;
