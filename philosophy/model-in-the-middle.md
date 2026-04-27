@@ -84,7 +84,7 @@ Cars arrived from outside the constraint entirely, and the question dissolved.
 
 If we treat the timeline of authored events as primary, the things we currently call "the model" become projections: views computed from events, owned by their consumer, shaped to the moment of use.
 There's no single canonical schema; there are projections per consumer.
-There's no main branch fighting parallel work; there's the actual graph of what people did, with views computed for whoever needs one.
+There's no main branch fighting parallel work; there's the actual graph of who did what when, with views computed for whoever needs one.
 There's no average user shaping the software; there's a record of what each person authored, projected into the shape that fits them.
 
 Existing canonical systems (databases, git, conversations on GitHub, whatever we depend on) become projections of the timeline.
@@ -99,4 +99,4 @@ Each is a partial answer; what they share hasn't yet been named.
 My work moving forward is to model this substrate over which events are observed, because I believe we can encode a core model of events unfolding in time that will be generally useful across all software domains.
 
 My motivation for this work is simple.
-I want to live in a world with fewer made-up problems. A world where good people can spend their attention on real problems: treating diseases, ending food insecurity, mitigating climate change. We developers can build the tools that make that world possible, but it's a ladder, and the bottom rung is better tooling for ourselves.
+I want to live in a world with fewer made-up problems. A world where good people can spend their attention on real problems: treating diseases, ending food insecurity, mitigating climate change. We developers can build the tools that make that world possible, but it's a ladder, and the bottom rung is better tooling for ourselves, built on a simpler model with fewer made-up problems.
